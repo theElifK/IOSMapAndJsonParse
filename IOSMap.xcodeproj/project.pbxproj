@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D61ECC5A24CAF9541486350 /* Pods_IOSMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E24F50830017F18CAB733CE /* Pods_IOSMap.framework */; };
 		842CF23629780F71003D85AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CF23529780F71003D85AA /* AppDelegate.swift */; };
 		842CF23829780F71003D85AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CF23729780F71003D85AA /* SceneDelegate.swift */; };
-		842CF23A29780F71003D85AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CF23929780F71003D85AA /* ViewController.swift */; };
 		842CF23D29780F71003D85AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842CF23B29780F71003D85AA /* Main.storyboard */; };
 		842CF23F29780F72003D85AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842CF23E29780F72003D85AA /* Assets.xcassets */; };
 		842CF24229780F72003D85AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842CF24029780F72003D85AA /* LaunchScreen.storyboard */; };
+		842CF24A29781003003D85AA /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CF24929781003003D85AA /* MapVC.swift */; };
+		84D6943229BF69FE00BA8E2D /* ProvinceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6943129BF69FE00BA8E2D /* ProvinceDataModel.swift */; };
+		84D6943629BF6FA500BA8E2D /* cities_of_turkey.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D6943529BF6FA400BA8E2D /* cities_of_turkey.json */; };
+		84D6943829C0747C00BA8E2D /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D6943729C0747C00BA8E2D /* Data.json */; };
+		84D6943B29C0952300BA8E2D /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6943A29C0952300BA8E2D /* CustomPointAnnotation.swift */; };
+		84D6943E29C0995B00BA8E2D /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6943D29C0995B00BA8E2D /* Enum.swift */; };
+		84D6944129C09C0400BA8E2D /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6944029C09C0400BA8E2D /* CityCard.swift */; };
+		84D6944329C09C2100BA8E2D /* CityCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6944229C09C2100BA8E2D /* CityCard.xib */; };
+		84D6944629C09F0900BA8E2D /* MKMapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6944529C09F0900BA8E2D /* MKMapViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E32228B23C4FDB296C59FF1 /* Pods-IOSMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSMap.debug.xcconfig"; path = "Target Support Files/Pods-IOSMap/Pods-IOSMap.debug.xcconfig"; sourceTree = "<group>"; };
+		2E24F50830017F18CAB733CE /* Pods_IOSMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842CF23229780F71003D85AA /* IOSMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842CF23529780F71003D85AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842CF23729780F71003D85AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		842CF23929780F71003D85AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		842CF23C29780F71003D85AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842CF23E29780F72003D85AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842CF24129780F72003D85AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842CF24329780F72003D85AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842CF24929781003003D85AA /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		84D6943129BF69FE00BA8E2D /* ProvinceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceDataModel.swift; sourceTree = "<group>"; };
+		84D6943529BF6FA400BA8E2D /* cities_of_turkey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities_of_turkey.json; sourceTree = "<group>"; };
+		84D6943729C0747C00BA8E2D /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		84D6943A29C0952300BA8E2D /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		84D6943D29C0995B00BA8E2D /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		84D6944029C09C0400BA8E2D /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		84D6944229C09C2100BA8E2D /* CityCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityCard.xib; sourceTree = "<group>"; };
+		84D6944529C09F0900BA8E2D /* MKMapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewExtension.swift; sourceTree = "<group>"; };
+		85894CDECB6FB2210E8FCFC0 /* Pods-IOSMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSMap.release.xcconfig"; path = "Target Support Files/Pods-IOSMap/Pods-IOSMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D61ECC5A24CAF9541486350 /* Pods_IOSMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840668EB2987DF96000DB410 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				842CF24929781003003D85AA /* MapVC.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		842CF22929780F71003D85AA = {
 			isa = PBXGroup;
 			children = (
+				84D6943529BF6FA400BA8E2D /* cities_of_turkey.json */,
 				842CF23429780F71003D85AA /* IOSMap */,
 				842CF23329780F71003D85AA /* Products */,
+				B236731DC7FFB7D5F5AD9F91 /* Pods */,
+				9A47B6D2AD5776C6CB34D634 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,111 @@
 		842CF23429780F71003D85AA /* IOSMap */ = {
 			isa = PBXGroup;
 			children = (
-				842CF23529780F71003D85AA /* AppDelegate.swift */,
-				842CF23729780F71003D85AA /* SceneDelegate.swift */,
-				842CF23929780F71003D85AA /* ViewController.swift */,
-				842CF23B29780F71003D85AA /* Main.storyboard */,
+				84BD144E2A16AA63005BAF73 /* Delegates */,
+				84BD144D2A16AA4D005BAF73 /* Storyboards */,
+				84BD144B2A16A9FC005BAF73 /* Shared */,
+				84BD144A2A16A9D4005BAF73 /* Scenes */,
 				842CF23E29780F72003D85AA /* Assets.xcassets */,
-				842CF24029780F72003D85AA /* LaunchScreen.storyboard */,
 				842CF24329780F72003D85AA /* Info.plist */,
 			);
 			path = IOSMap;
+			sourceTree = "<group>";
+		};
+		84BD144A2A16A9D4005BAF73 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84D6943F29C09BDE00BA8E2D /* Card */,
+				840668EB2987DF96000DB410 /* Map */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84BD144B2A16A9FC005BAF73 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				84BD144C2A16AA1F005BAF73 /* DataModel */,
+				84D6944429C09EE100BA8E2D /* Extensions */,
+				84D6943929C094FF00BA8E2D /* CustomPoint */,
+				84D6943C29C0994A00BA8E2D /* Enum */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		84BD144C2A16AA1F005BAF73 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				84D6943729C0747C00BA8E2D /* Data.json */,
+				84D6943129BF69FE00BA8E2D /* ProvinceDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		84BD144D2A16AA4D005BAF73 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				842CF23B29780F71003D85AA /* Main.storyboard */,
+				842CF24029780F72003D85AA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84BD144E2A16AA63005BAF73 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				842CF23729780F71003D85AA /* SceneDelegate.swift */,
+				842CF23529780F71003D85AA /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		84D6943929C094FF00BA8E2D /* CustomPoint */ = {
+			isa = PBXGroup;
+			children = (
+				84D6943A29C0952300BA8E2D /* CustomPointAnnotation.swift */,
+			);
+			path = CustomPoint;
+			sourceTree = "<group>";
+		};
+		84D6943C29C0994A00BA8E2D /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				84D6943D29C0995B00BA8E2D /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		84D6943F29C09BDE00BA8E2D /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				84D6944029C09C0400BA8E2D /* CityCard.swift */,
+				84D6944229C09C2100BA8E2D /* CityCard.xib */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		84D6944429C09EE100BA8E2D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84D6944529C09F0900BA8E2D /* MKMapViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A47B6D2AD5776C6CB34D634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E24F50830017F18CAB733CE /* Pods_IOSMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B236731DC7FFB7D5F5AD9F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E32228B23C4FDB296C59FF1 /* Pods-IOSMap.debug.xcconfig */,
+				85894CDECB6FB2210E8FCFC0 /* Pods-IOSMap.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842CF24629780F72003D85AA /* Build configuration list for PBXNativeTarget "IOSMap" */;
 			buildPhases = (
+				2A1CB2F0455A2C1E75119071 /* [CP] Check Pods Manifest.lock */,
 				842CF22E29780F71003D85AA /* Sources */,
 				842CF22F29780F71003D85AA /* Frameworks */,
 				842CF23029780F71003D85AA /* Resources */,
+				5D9B4DCB6BC8473110934BD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6944329C09C2100BA8E2D /* CityCard.xib in Resources */,
+				84D6943829C0747C00BA8E2D /* Data.json in Resources */,
 				842CF24229780F72003D85AA /* LaunchScreen.storyboard in Resources */,
+				84D6943629BF6FA500BA8E2D /* cities_of_turkey.json in Resources */,
 				842CF23F29780F72003D85AA /* Assets.xcassets in Resources */,
 				842CF23D29780F71003D85AA /* Main.storyboard in Resources */,
 			);
@@ -133,13 +266,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A1CB2F0455A2C1E75119071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D9B4DCB6BC8473110934BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSMap/Pods-IOSMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSMap/Pods-IOSMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOSMap/Pods-IOSMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842CF22E29780F71003D85AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842CF23A29780F71003D85AA /* ViewController.swift in Sources */,
+				84D6944629C09F0900BA8E2D /* MKMapViewExtension.swift in Sources */,
+				842CF24A29781003003D85AA /* MapVC.swift in Sources */,
+				84D6944129C09C0400BA8E2D /* CityCard.swift in Sources */,
+				84D6943E29C0995B00BA8E2D /* Enum.swift in Sources */,
 				842CF23629780F71003D85AA /* AppDelegate.swift in Sources */,
+				84D6943229BF69FE00BA8E2D /* ProvinceDataModel.swift in Sources */,
+				84D6943B29C0952300BA8E2D /* CustomPointAnnotation.swift in Sources */,
 				842CF23829780F71003D85AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +462,7 @@
 		};
 		842CF24729780F72003D85AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E32228B23C4FDB296C59FF1 /* Pods-IOSMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,7 +471,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,6 +490,7 @@
 		};
 		842CF24829780F72003D85AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85894CDECB6FB2210E8FCFC0 /* Pods-IOSMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +499,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
