@@ -151,7 +151,7 @@ extension MapVC: MKMapViewDelegate {
 extension MapVC {
     
     public func setPlaceZoom(_ coordinate: CLLocationCoordinate2D) {
-        let coordinateRegion = MKCoordinateRegion(center: coordinate, latitudinalMeters:10000, longitudinalMeters: 10000)
+        let coordinateRegion = MKCoordinateRegion(center: coordinate, latitudinalMeters:100000, longitudinalMeters: 100000)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     func reloadMap(){
