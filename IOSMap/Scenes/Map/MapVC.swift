@@ -267,9 +267,6 @@ extension MapVC {
             
             self.cities.append(contentsOf: decodedData.data ?? [])
             self.reloadMap()
-            //    print("Name: ", decodedData.data?[60].name ?? "-")
-            //   print("Id: ", decodedData.data?[60].id ?? "0")
-            print("===================================")
         } catch {
             print("decode error")
         }
