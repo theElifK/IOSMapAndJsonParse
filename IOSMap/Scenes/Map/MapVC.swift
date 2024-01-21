@@ -110,6 +110,7 @@ extension MapVC: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, didDeselect view: MKAnnotationView) {
         self.hideView(view: viewDetail!)
         self.changePinImage(view: view, selected : false)
+        self.reloadMap()
     }
     func updateAnnouncementMarkers() {
         deleteAnnouncementMarkers()
